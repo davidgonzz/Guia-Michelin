@@ -1,0 +1,110 @@
+@font-face {
+    font-family: AvenirNext;
+    src: url(../font/AvenirNext-Regular.ttf);
+}
+body {
+    margin: 0;
+    font-family: AvenirNext, 'Times New Roman', Times, serif;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.p-4 {
+    padding: 32px;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+}
+header nav li {
+    margin-left: 20px;
+}
+nav li a {
+    text-decoration: none;
+    color: gray;
+}
+.portada {
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+.portada .col {
+    padding-left: 10%;
+    width: 40%;
+}
+.itt {
+    width: 100%;
+    padding: 16px 60px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(../img/icons-search.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 14px;
+    background-size: 30px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.linea {
+    margin-top: 30px;
+    display: inline-block;
+    width: 80px;
+    border: solid 3px red;
+}
+.col-3 {
+    width: 32%;
+}
+.card {
+    box-shadow: 0 0 14px rgb(194, 193, 193);
+    padding-bottom: 40px;
+}
+.p-2 {
+    padding: 16px;
+}
+.position-relative {
+    position: relative;
+}
+.btn {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 46px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+footer nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li:hover {
+    border-bottom: solid 3px red;
+}
